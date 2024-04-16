@@ -1,7 +1,9 @@
 ###Description
+
 This project delves into the concept of real-estate analytics, speicifically targeting the properties in and around Boston. By employing the data analysis techniques, the project aims in uncovering insights related to property characteristics and land value. Some of the key objectives include comparing properties based on their land value, identifying prevalent property types in the region, any specific neighborhood or street that stands out in terms of low or high property values, and mainly determining the factors that significantly influence land valuation.
 
 ###Analysis
+
 This is broken down in 3 phases:
 1. Data transformation: The schema is verified by checking whether the appropriate data types are assigned to each variables, if not then the root cause is inspected (whether it's due to the presence of characters like ',' or '.' in the data, etc). The presence of null values in data skews the analysis and may result in biases as well, these are taken care of by checking whether the complete removal of the respective field would hinder the analysis by any means.
 The code below shows an an example for changing the data types using `pyspark`
